@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hetzcosta-kernelopt_jd104"
+name = "hetzcosta-job_preemption_fairness_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出AI 芯片算子优化工程师·作业抢占与调度公平性上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://hetzcosta.github.io"
-Repository = "https://github.com/hetzcosta/kernelopt_jd104"
-Issues = "https://github.com/hetzcosta/kernelopt_jd104/issues"
+Repository = "https://github.com/hetzcosta/job_preemption_fairness_count_trace"
+Issues = "https://github.com/hetzcosta/job_preemption_fairness_count_trace/issues"
 
 [project.scripts]
-kernelopt_jd104 = "kernelopt_jd104:main"
+job_preemption_fairness_count_trace = "job_preemption_fairness_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["kernelopt_jd104"]
+py-modules = ["job_preemption_fairness_count_trace"]
